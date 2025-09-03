@@ -2,6 +2,7 @@
   "name": "rpg-task-list-mono-repo",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

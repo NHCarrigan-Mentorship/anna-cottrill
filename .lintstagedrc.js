@@ -1,3 +1,4 @@
 export default {
-   "{rpg-task-list-api,rpg-task-list-view}/**/*.js": "eslint"
-}
+  "**/*.{js,ts,tsx}": ["eslint --fix"],
+  "**/*": "prettier --write --ignore-unknown",
+};
